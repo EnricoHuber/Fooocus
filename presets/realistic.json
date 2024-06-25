@@ -1,27 +1,27 @@
 {
-    "default_model": "realisticStockPhoto_v20.safetensors",
+    "default_model": "realvisxlV40_v40LightningBakedvae.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
-            "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
-            0.25
+            "add_detail.safetensors",
+            0.5
         ],
         [
             true,
-            "None",
-            1.0
+            "hd_helper_v1.safetensors",
+            0.5
         ],
         [
             true,
-            "None",
-            1.0
+            "color_temperature_slider_v1.safetensors",
+            0.5
         ],
         [
             true,
-            "None",
-            1.0
+            "lyco_humans_v10.safetensors",
+            0.5
         ],
         [
             true,
@@ -33,9 +33,9 @@
     "default_sample_sharpness": 2.0,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
-    "default_performance": "Speed",
+    "default_performance": "Quality",
     "default_prompt": "",
-    "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
+    "default_prompt_negative": "unrealistic, big nose, big lips, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
     "default_styles": [
         "Fooocus V2",
         "Fooocus Photograph",
@@ -43,11 +43,12 @@
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "realisticStockPhoto_v20.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v20.safetensors"
+        "realvisxlV40_v40LightningBakedvae.safetensors": "https://huggingface.co/alexgenovese/reica_models/blob/021e192bd744c48a85f8ae1832662e77beb9aac7/realvisxlV40_v40LightningBakedvae.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors"
+        "add_detail.safetensors": "https://huggingface.co/OedoSoldier/detail-tweaker-lora/blob/main/add_detail.safetensors",
+        "color_temperature_slider_v1.safetensors": "https://civitai.com/api/download/models/111260"
     },
     "previous_default_models": ["realisticStockPhoto_v10.safetensors"]
 }
