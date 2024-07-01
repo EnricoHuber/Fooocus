@@ -32,6 +32,11 @@
             true,
             "epi_noiseoffset2.safetensors",
             0.5
+        ],
+        [
+            true,
+            "HD Horizon v1_0.safetensors",
+            0.5
         ]
     ],
     "default_cfg_scale": 3.0,
@@ -57,7 +62,8 @@
         "hd_helper_v1.safetensors": "https://civitai.com/api/download/models/118644",
         "epiCRealismHelper.safetensors": "https://civitai.com/api/download/models/118945",
         "locon_perfecteyes_v1_from_v1_64_32.safetensors": "https://civitai.com/api/download/models/70587",
-        "epi_noiseoffset2.safetensors": "https://civitai.com/api/download/models/16576?type=Model&format=SafeTensor&size=full&fp=fp16"
+        "epi_noiseoffset2.safetensors": "https://civitai.com/api/download/models/16576?type=Model&format=SafeTensor&size=full&fp=fp16",
+        "HD Horizon v1_0.safetensors": "https://civitai.com/api/download/models/269376"
     },
     "previous_default_models": ["realisticStockPhoto_v10.safetensors"]
 }
