@@ -37,6 +37,26 @@
             true,
             "HD Horizon v1_0.safetensors",
             0.5
+        ],
+        [
+            true,
+            "photorealistic02.safetensors",
+            0.5
+        ],
+        [
+            true,
+            "difConsistency_photo.safetensors",
+            0.5
+        ],
+        [
+            true,
+            "Photographic_Trend.safetensors",
+            0.5
+        ],
+        [
+            true,
+            "blood.safetensors",
+            0.5
         ]
     ],
     "default_cfg_scale": 3.0,
@@ -63,7 +83,11 @@
         "epiCRealismHelper.safetensors": "https://civitai.com/api/download/models/118945",
         "locon_perfecteyes_v1_from_v1_64_32.safetensors": "https://civitai.com/api/download/models/70587",
         "epi_noiseoffset2.safetensors": "https://civitai.com/api/download/models/16576?type=Model&format=SafeTensor&size=full&fp=fp16",
-        "HD Horizon v1_0.safetensors": "https://civitai.com/api/download/models/269376"
+        "HD Horizon v1_0.safetensors": "https://civitai.com/api/download/models/269376",
+        "photorealistic02.safetensors": "https://civitai.com/api/download/models/86450",
+        "difConsistency_photo.safetensors": "https://civitai.com/api/download/models/92984",
+        "Photographic_Trend.safetensors": "https://civitai.com/api/download/models/105391",
+        "blood.safetensors": "https://civitai.com/api/download/models/109804"
     },
     "previous_default_models": ["realisticStockPhoto_v10.safetensors"]
 }
