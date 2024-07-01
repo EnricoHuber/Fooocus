@@ -1,5 +1,5 @@
 {
-    "default_model": "epicrealism_naturalSinRC1VAE.safetensors",
+    "default_model": "epicrealismXL_v7FinalDestination.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -11,17 +11,17 @@
         [
             true,
             "add_detail.safetensors",
-            0.5
+            0.0
         ],
         [
             true,
             "epiCRealismHelper.safetensors",
-            0.5
+            0.0
         ],
         [
             true,
             "locon_perfecteyes_v1_from_v1_64_32.safetensors",
-            0.5
+            0.0
         ],
         [
             true,
@@ -43,7 +43,7 @@
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "epicrealism_naturalSinRC1VAE.safetensors": "https://civitai.com/api/download/models/143906"
+        "epicrealismXL_v7FinalDestination.safetensors": "https://civitai.com/api/download/models/489217"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
