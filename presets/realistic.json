@@ -1,5 +1,5 @@
 {
-    "default_model": "epicphotogasm_z-inpainting.safetensors",
+    "default_model": "epicrealism_naturalSinRC1VAE.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -43,7 +43,7 @@
     ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
-        "epicphotogasm_z-inpainting.safetensors": "https://civitai.com/api/download/models/201346"
+        "epicrealism_naturalSinRC1VAE.safetensors": "https://civitai.com/api/download/models/143906"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
