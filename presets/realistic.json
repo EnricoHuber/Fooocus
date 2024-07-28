@@ -47,6 +47,7 @@
         "Fooocus Negative"
     ],
     "default_aspect_ratio": "896*1152",
+    "default_overwrite_step": -1,
     "checkpoint_downloads": {
         "epicrealismXL_v7FinalDestination.safetensors": "https://civitai.com/api/download/models/489217"
     },
