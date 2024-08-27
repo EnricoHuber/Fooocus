@@ -12,7 +12,11 @@
     "default_performance": "Quality",
     "default_prompt": "",
     "default_prompt_negative": "unrealistic, professional, big nose, big lips, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label, bad nails, (bad hands:1.2), (bad fingers:1.2), deformed body parts, bad teeth, deformed legs, (bad anatomy:1.2), unnatural pose, nsfw, bad hair, bad shadow, (text:1.2)",
-    "default_styles": [],
+    "default_styles": [
+        "Fooocus V2",
+        "Fooocus Photograph",
+        "Fooocus Negative"
+    ],
     "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {
         "epicrealismXL_v8Kiss.safetensors": "https://civitai.com/api/download/models/646523?type=Model&format=SafeTensor&size=pruned&fp=fp16"
